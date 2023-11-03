@@ -1,3 +1,6 @@
+import numpy as np
+import torch
+
 def to_numpy(array) -> np.ndarray:
     """
     Handles converting any array like object to a numpy array.
